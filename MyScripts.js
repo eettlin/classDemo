@@ -1,16 +1,21 @@
 
 function firstLast()
 {
-    alert(otherStudent.middle);
+    alert("stuOne.last = " + stuOne.last);
 }
 
+//  Object literal
 var student = {
     "first": "Larry",
     "last": "Jones",
 }
 
-var otherStudent = Object.create(student);
 
-student.nickname = "Curly";
-otherStudent.middle = "fred";
+var stuOne = Object.create(student);
+
+stuOne.fist = "Bob";
+stuOne.last = "Smith";
+
+stuOne.nickname = "Curly";
+stuOne.middle = "fred";
 
