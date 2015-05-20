@@ -1,0 +1,25 @@
+body{background-color:lightblue;}
+
+    p,h1{  text-align:center;
+        font-size: 40px;}
+
+    #WrapperDiv{  
+        background-color:lightgreen;
+        height:600px;
+        width:800px;
+        margin:auto;  
+		border-radius: 25px;
+        border: solid black 3px;
+        padding:30px;
+		box-shadow: 4px 4px 8px #552200;
+		text-shadow: 3px 3px 4px #552200;
+    }
+
+    #demoDiv{       
+        background-color:white;
+        Height:400px;
+        Width:600px;
+        Margin:auto;
+        Margin-top:50px;
+        border:solid orange 5px;
+        }
